@@ -1,0 +1,165 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+input {
+  outline: none;
+}
+#navbarNav {
+  flex-direction: row-reverse;
+}
+.navbar-brand {
+  font-size: 37px;
+}
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+nav ul li span {
+  font-size: 16px;
+  color: #a29c9c;
+  transition-duration: 0.5s;
+}
+nav ul li span:hover {
+  color: white;
+  transition-duration: 0.5s;
+}
+nav ul li i {
+  font-size: 22px;
+  color: #a29c9c;
+}
+nav ul li i:hover {
+  color: white;
+}
+nav input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 150px;
+}
+.login i {
+  margin: 0px 10px 0px 10px;
+}
+.the {
+  color: #a29c9c;
+}
+.northpole {
+  color: #eee6e6;
+}
+.icons {
+  display: none;
+}
+.dropdown-item:hover {
+  background-color: black;
+  color: white;
+}
+footer {
+  height: 180px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 100px;
+  align-items: center;
+  background-color: #242424;
+}
+.wix {
+  display: flex;
+  justify-content: end;
+}
+.faq {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+  text-decoration: underline;
+}
+.wix {
+  color: #a29c9c;
+}
+.wix a {
+  color: #a29c9c;
+  text-decoration: underline;
+}
+.faq a {
+  color: #a29c9c;
+}
+main {
+  height: 1100px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.packs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.title {
+  font-size: 60px;
+  color: white;
+}
+.select {
+  background-color: black;
+  height: 390px;
+  width: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition-duration: 0.5s;
+}
+.select a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+}
+.itemname {
+  font-size: 20px;
+  color: white;
+  height: 50px;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+}
+.itemprice {
+  font-size: 20px;
+  color: white;
+  height: 50px;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+}
+.select a:hover {
+  border-radius: 5px;
+}
+.select:hover span {
+  color: black;
+}
+.select button {
+  display: none;
+  width: 320px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 25px;
+}
+.select:hover button {
+  display: block;
+}
+.select:hover .itemname {
+  display: none;
+}
+.select:hover .itemprice {
+  display: none;
+}
+#carouselExampleControls {
+  display: none;
+  width: 320px;
+}

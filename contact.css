@@ -1,0 +1,205 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+input {
+  outline: none;
+}
+#navbarNav {
+  flex-direction: row-reverse;
+}
+.navbar-brand {
+  font-size: 37px;
+}
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+nav ul li span {
+  font-size: 16px;
+  color: #a29c9c;
+  transition-duration: 0.5s;
+}
+nav ul li span:hover {
+  color: white;
+  transition-duration: 0.5s;
+}
+nav ul li i {
+  font-size: 22px;
+  color: #a29c9c;
+}
+nav ul li i:hover {
+  color: white;
+}
+nav input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 150px;
+}
+.login i {
+  margin: 0px 10px 0px 10px;
+}
+.the {
+  color: #a29c9c;
+}
+.northpole {
+  color: #eee6e6;
+}
+.icons {
+  display: none;
+}
+.dropdown-item:hover {
+  background-color: black;
+  color: white;
+}
+footer {
+  height: 180px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 100px;
+  align-items: center;
+  background-color: #242424;
+}
+.wix {
+  display: flex;
+  justify-content: end;
+}
+.faq {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+  text-decoration: underline;
+}
+.wix {
+  color: #a29c9c;
+}
+.wix a {
+  color: #a29c9c;
+  text-decoration: underline;
+}
+.faq a {
+  color: #a29c9c;
+}
+.contacts {
+  height: 900px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10%;
+  background-image: url(https://wallpaperaccess.com/full/4059264.jpg);
+}
+.send,
+.info {
+  background-color: transparent;
+}
+.send {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.fills {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.size {
+  height: 551px;
+  width: 413px;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-left: 10px;
+}
+.size input {
+  height: 50px;
+  width: 100%;
+  border: 1px solid white;
+  background-color: transparent;
+}
+.size input:hover {
+  border: 2px solid white;
+}
+.size span {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.firstname {
+  display: flex;
+  flex-direction: row;
+}
+.short {
+  width: 98%;
+}
+.long {
+  width: 99%;
+}
+.btn {
+  display: flex;
+  justify-content: end;
+}
+.btn button {
+  transition-duration: 0.5s;
+}
+.btn button:hover {
+  color: black;
+  background-color: #eee6e6;
+  transition-duration: 0.5s;
+}
+.send button {
+  width: 152px;
+  height: 50px;
+  background-color: transparent;
+  color: white;
+  border: solid white 2px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.big {
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+}
+.mid {
+  font-size: 22px;
+}
+.domain {
+  font-size: 22px;
+}
+.tel {
+  max-width: 550px;
+  min-width: 0px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  border: 10px black solid;
+  color: white;
+  background-color: black;
+  box-shadow: 1px 1px 49px -6px rgba(0, 0, 0, 0.75);
+  transform: rotate(-10deg);
+  transition-duration: 0.5s;
+  font-family: serif;
+}
+.tel:hover {
+  transform: rotate(0deg);
+  transition-duration: 0.5s;
+  transform: scale(1.1);
+  box-shadow: 1px 1px 69px -6px rgba(0, 0, 0, 0.75);
+}
+.fa-backpack {
+  font-size: 30px;
+  color: white;
+}
+.send .info {
+  width: 70%;
+}

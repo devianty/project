@@ -1,0 +1,286 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+input {
+  outline: none;
+}
+#navbarNav {
+  flex-direction: row-reverse;
+}
+.navbar-brand {
+  font-size: 37px;
+}
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+nav ul li span {
+  font-size: 16px;
+  color: #a29c9c;
+  transition-duration: 0.5s;
+}
+nav ul li span:hover {
+  color: white;
+  transition-duration: 0.5s;
+}
+nav ul li i {
+  font-size: 22px;
+  color: #a29c9c;
+}
+nav ul li i:hover {
+  color: white;
+}
+nav input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 150px;
+}
+.login i {
+  margin: 0px 10px 0px 10px;
+}
+.the {
+  color: #a29c9c;
+}
+.northpole {
+  color: #eee6e6;
+}
+.icons {
+  display: none;
+}
+.dropdown-item:hover {
+  background-color: black;
+  color: white;
+}
+footer {
+  height: 180px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 100px;
+  align-items: center;
+  background-color: #242424;
+}
+.wix {
+  display: flex;
+  justify-content: end;
+}
+.faq {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+  text-decoration: underline;
+}
+.wix {
+  color: #a29c9c;
+}
+.wix a {
+  color: #a29c9c;
+  text-decoration: underline;
+}
+.faq a {
+  color: #a29c9c;
+}
+main {
+  height: 1800px;
+  background-color: black;
+}
+.image {
+  display: flex;
+  justify-content: center;
+}
+.sides {
+  height: 700px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 100px;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: black;
+  color: white;
+}
+.left {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.sizes {
+  max-width: 500px;
+  margin-left: 10px;
+}
+.left11 {
+  font-size: 28px;
+}
+.left12 {
+  font-size: 16px;
+}
+.left21 {
+  font-size: 18px;
+}
+.left22 {
+  font-size: 16px;
+}
+.left31 {
+  font-size: 18px;
+}
+.left32 {
+  font-size: 16px;
+}
+.lefts {
+  margin-bottom: 60px;
+}
+.line {
+  text-decoration: line-through;
+}
+.left div span {
+  color: white;
+}
+.rone {
+  margin-bottom: 20px;
+}
+.rone span {
+  font-size: 25px;
+}
+.color {
+  font-size: 14px;
+}
+.ball {
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  border: 1px gray solid;
+  margin-bottom: 20px;
+}
+.rthree input {
+  width: 80px;
+  height: 40px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: white 2px solid;
+  color: white;
+}
+.rfour {
+  width: 270px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  row-gap: 5px;
+}
+.add {
+  margin-top: 10px;
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  transition-duration: 0.5s;
+}
+.add:hover {
+  background-color: white;
+  color: black;
+  transition-duration: 0.5s;
+}
+.heart {
+  margin-top: 10px;
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  transition-duration: 0.5s;
+}
+.heart:hover {
+  background-color: white;
+  color: red;
+  transition-duration: 0.5s;
+}
+.buy {
+  width: 133.5%;
+  height: 50px;
+  background-color: white;
+  border: 2px solid white;
+  color: black;
+  transition-duration: 0.5s;
+}
+.buy:hover {
+  background-color: transparent;
+  color: white;
+  transition-duration: 0.5s;
+}
+.related {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+}
+.packc {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+}
+.select {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition-duration: 0.5s;
+}
+.select a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+}
+.itemname {
+  font-size: 20px;
+  color: white;
+  height: 50px;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+}
+.itemprice {
+  font-size: 20px;
+  color: white;
+  height: 50px;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+}
+.select a:hover {
+  border-radius: 5px;
+}
+.select:hover span {
+  color: black;
+  transition-duration: 5s;
+}
+.select button {
+  display: none;
+  width: 320px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 25px;
+}
+.select:hover button {
+  display: block;
+}
+.select:hover .itemname {
+  display: none;
+}
+.select:hover .itemprice {
+  display: none;
+}
+#carouselExampleControls {
+  display: none;
+}

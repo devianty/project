@@ -1,0 +1,69 @@
+@media screen and (max-width: 991px) {
+  nav input {
+    display: none;
+  }
+  nav .login {
+    margin: 0px;
+  }
+  .navbar {
+    opacity: 0.9;
+  }
+  .icons i {
+    margin: 0px 5px 0px 5px;
+  }
+  .icons {
+    display: block;
+  }
+  .icons i {
+    margin: 0px 5px 0px 5px;
+  }
+}
+@media screen and (max-width: 608px) {
+  main .plan {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 367px) {
+  .the,
+  .northpole {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1094px) {
+  footer {
+    grid-template-columns: 1fr;
+  }
+  .wix,
+  .faq {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 497px) {
+  .wix {
+    font-size: 12px;
+  }
+  .faq {
+    font-size: 11px;
+    column-gap: 10px;
+  }
+}
+@media screen and (max-width: 970px) {
+  .packs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  main {
+    height: 1300px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .packs {
+    display: none;
+  }
+  main {
+    height: 700px;
+  }
+  #carouselExampleControls {
+    display: block;
+  }
+}
